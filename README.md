@@ -10,8 +10,9 @@ PasswordGenGUI is a simple password generator with a graphical user interface (G
 
 To use PasswordGenGUI, you'll need to have Python 3 and the Tkinter package installed on your system. If you're using Windows or macOS, Python 3 and Tkinter should be pre-installed. If you're using Linux, you can install them with the following commands:
 
-```sudo apt-get install python3```
-```sudo apt-get install python3-tk```
+```bash
+sudo apt-get update && sudo apt-get install python3 python3-tk
+```
 
 Once you have Python 3 and Tkinter installed, you can download or clone this repository to your local machine.
 
