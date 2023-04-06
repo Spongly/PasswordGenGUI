@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PasswordGenGUI</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>PasswordGenGUI</h1>
+	<p>Welcome to PasswordGenGUI, a simple password generator with a graphical user interface (GUI) built in Python.</p>
+
+	<form>
+		<label for="length">Password Length:</label>
+		<input type="number" name="length" id="length" min="6" max="32" value="12">
+
+		<label for="complexity">Password Complexity:</label>
+		<select name="complexity" id="complexity">
+			<option value="simple">Simple</option>
+			<option value="medium">Medium</option>
+			<option value="strong">Strong</option>
+		</select>
+
+		<button type="button" id="generate-password">Generate Password</button>
+	</form>
+
+	<p id="password-output">Your generated password will appear here.</p>
+
+	<script src="password_gen.js"></script>
+</body>
+</html>
