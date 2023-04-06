@@ -25,3 +25,7 @@ python3 password_gen_gui.py
 This will launch the GUI window, where you can enter the desired password length and click the "Generate Password" button to generate a new password.
 
 The generated password will be displayed in the output field, which prevents accidental modification. You can copy and paste the password into another application as needed.
+
+# How it looks
+
+![png](https://raw.githubusercontent.com/Spongly/PasswordGenGUI/main/image/how_it_looks.png)
