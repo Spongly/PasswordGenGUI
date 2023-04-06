@@ -20,10 +20,9 @@ Once you have Python 3 and Tkinter installed, you can download or clone this rep
 
 To launch PasswordGenGUI, navigate to the project directory in your terminal and run the following command:
 
-bash
-
+```bash
 python3 password_gen_gui.py
-
+```
 This will launch the GUI window, where you can enter the desired password length and click the "Generate Password" button to generate a new password.
 
 The generated password will be displayed in the output field, which prevents accidental modification. You can copy and paste the password into another application as needed.
