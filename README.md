@@ -4,7 +4,6 @@ PasswordGenGUI is a simple password generator with a graphical user interface (G
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 # Installation
 
@@ -26,6 +25,3 @@ python3 password_gen_gui.py
 This will launch the GUI window, where you can enter the desired password length and click the "Generate Password" button to generate a new password.
 
 The generated password will be displayed in the output field, which prevents accidental modification. You can copy and paste the password into another application as needed.
-License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
