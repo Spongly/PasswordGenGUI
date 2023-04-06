@@ -32,5 +32,5 @@ The generated password will be displayed in the output field, which prevents acc
 
 # I also made a web version
 
-[click to see the web version](https://spongly.github.io/PasswordGenGUI/web/index.html)
+[Click me!](https://spongly.github.io/PasswordGenGUI/web/index.html)
 
