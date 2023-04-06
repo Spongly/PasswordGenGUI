@@ -32,7 +32,7 @@ The generated password will be displayed in the output field, which prevents acc
 
 ![png](https://raw.githubusercontent.com/Spongly/PasswordGenGUI/main/image/how_it_looks.png)
 
-# I also made a web version
+# Web version
 
 <a href="https://spongly.github.io/PasswordGenGUI/web/index.html" target="_blank">Click Me!</a>
 
