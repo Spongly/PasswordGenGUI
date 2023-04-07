@@ -41,3 +41,23 @@ generateButton.addEventListener('click', () => {
   const password = generatePassword(length, complexity);
   passwordOutput.innerText = password;
 });
+
+const textToCopy = document.querySelector('#password-output');
+
+textToCopy.addEventListener('click', () => {
+  // Create a new textarea element and set its value to the text to copy
+  const textarea = document.createElement('textarea');
+  textarea.value = textToCopy.textContent;
+  
+  // Add the textarea element to the page and select its text
+  document.body.appendChild(textarea);
+  textarea.select();
+  
+  // Copy the selected text to the clipboard and remove the textarea element
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+  
+  // Show a confirmation message to the user
+  alert('Text copied to clipboard!');
+});
+
